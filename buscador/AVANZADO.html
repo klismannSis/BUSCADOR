@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Buscador Avanzado</title>
+	<link rel="stylesheet" type="text/css" href="Buscador.css">
+	 <link rel="icon" href="https://www.unsa.edu.pe/wp-content/uploads/2017/12/cropped-LogoUNSAFav-192x192.png" sizes="192x192">
+</head>
+<body>
+	
+	<ul class="avanzado">
+		<li><a href="http://localhost/buscador/BUSCADOR.html#">Buscador de Google</li>	
+		<li><a href="http://localhost/buscador/IMAGEN.html">Imagenes de Google</a></li>
+		<li><a href="#">Buscador Avanzado</a></li>
+		
+	</ul>
+	<h1>Buscador avanzado</h1>
+	<hr>
+	<h3><b>Mostrar paginas que contengan</b></h3>
+
+	<form action="avanzado.pl" method="get">
+    <h4>Todas las palabras <input type="text"  
+			class="todas"
+			autocomplete="off" name="prim"></h4>
+    <h4>Esta palabra ó frase exacta <input type="text"  
+			class="esta"
+			autocomplete="off" name="segun"></h4>
+    <h4>Ninguna de estas palabras <input type="text"  
+			class="nin"
+			autocomplete="off" name="nopalab"></h4> 
+
+	<div class="Bus">
+			<input type="submit"value = "Buscador Avanzado">
+		</div>
+    </form>
+</body>
+</html>

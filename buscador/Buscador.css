@@ -1,0 +1,182 @@
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+	width: 99%;
+}
+.menu{
+	list-style: none;
+	padding: 1px;
+	background: #800000;
+	
+	max-width: 100000px;
+	
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	display: block;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover{
+	background: #ef8354;
+}
+div.logo img{	
+	width: 510px;
+	height: 190px;
+	margin: 0 auto;
+	display: block;
+}
+.box{
+	position: absolute;
+    width: 125%;
+    top: 50%;
+	left: 26%;
+		
+}
+.Google{
+	position: absolute;
+	width: 520px;
+	height:100px;
+	text-align: center;
+	top: 58%;
+	left: 30%;	
+}
+input.src{
+	padding: 10px 10px 10px 32px;
+	outline: none;
+	font-size: 18px;
+	border-radius: 15px;
+	color: #444;
+	border:  3px solid #a50559;
+
+	background: #fff url("search-icon.png") no-repeat 9px center;
+	width: 60px;
+	transition: all .5s;
+}
+input.src:hover{
+	width: 180px;
+	background-color: #fff;
+	border-color: #8c10b3;
+	box-shadow: 0 0 5px #6dcff680;
+	display: block;
+}
+.avanzado{
+	list-style: none;
+	padding: 1px;
+	background: #800000;
+	
+	max-width: 100000px;
+}
+.avanzado li a{
+text-decoration: none;
+	color: white;
+	padding: 10px;
+	display: block;
+	
+}
+.avanzado li{
+	display: inline-block;
+	text-align: center;
+}
+.avanzado li a:hover{
+    background: #ef8354;
+}
+input.avan{
+	padding: 5px 5px 5px 160px;
+	outline: navajowhite;
+	font-size: 10px;
+	border-radius: 0px;
+
+}
+.todas{
+	margin-left: 130px;
+	margin-top: 0px;
+	width: 30%;
+}
+.esta{
+	margin-left: 67px;
+	margin-top: 0px;
+	width: 30%;
+}
+.nin{
+	margin-left: 71px;
+	margin-top: 0px;
+	width: 30%;
+}
+.Bus{
+	margin-left: 550px;
+	margin-top: 0px;
+	
+}
+input.neutro{
+	padding: 5px 2px 1px 10px;
+	outline: navajowhite;
+	font-size: 10px;
+	border-radius: 0px;
+}
+hr{
+	margin-top: -1em;
+	margin-bottom: 2em;
+	border-width: 2px;
+	color: black;
+}
+.imagenes{
+	list-style: none;
+	padding: 1px;
+	background: #800000;
+	
+	max-width: 100000px;
+}
+.imagenes li a{
+text-decoration: none;
+	color: white;
+	padding: 10px;
+	display: block;
+	
+}
+.imagenes li{
+	display: inline-block;
+	text-align: center;
+}
+.imagenes li a:hover{
+    background: #ef8354;
+}
+.imgs{
+	position: absolute;
+    width: 125%;
+    top: 50%;
+	left: 26%;
+}
+.im{
+	position: absolute;
+	width: 520px;
+	height:100px;
+	text-align: center;
+	top: 58%;
+	left: 30%;	
+}
+input.imgens{
+	padding: 10px 10px 10px 32px;
+	outline: none;
+	font-size: 18px;
+	border-radius: 15px;
+	color: #444;
+	border:  3px solid #a50559;
+
+	background: #fff url("search-icon.png") no-repeat 9px center;
+	width: 60px;
+	transition: all .5s;
+}
+input.imgens:hover{
+	width: 180px;
+	background-color: #fff;
+	border-color: #8c10b3;
+	box-shadow: 0 0 5px #6dcff680;
+	display: block;
+}
+
+
